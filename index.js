@@ -14,6 +14,8 @@ function save() {
     count = 0
 }
 
-function clear() {
-    history.go(0);
+function reset() {
+    count = 0
+    countEl.textContent = count
+    saveEl.textContent = "Saved entries: "
 }

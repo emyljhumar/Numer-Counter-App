@@ -41,6 +41,10 @@ button {
     background: #1C7C54;
 }
 
+#clear-btn {
+    background: darkred;
+}
+
 #num-ctr {
     margin: 0;
     display: flex;
